@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+}
+#presentation{
+    width: 100%;
+    height: 100%;
+}
+#formations{
+    width: 100%;
+    height: 100%;
+}
+#experiences{
+    width: 100%;
+    height: 100%;
+}
+#realisations{
+    width: 100%;
+    height: 100%;
+}
+#sociaux{
+    width: 100%;
+    height: 100%;
+}
+
+.lightBlue{
+    background-color: #077187;
+}
+
+.darkBlue{
+    background-color: #074F57;
+}
+
+/* Presentation block */
+#nav{
+    height: 20%;
+}
+#title{
+    height: 10%;
+    background-color:red;
+}
+#myself{
+    height: 70%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+#aboutMe{
+    height: 100%;
+    width: 70%;
+    background-color: grey;
+}
+#picture{
+    height: 100%;
+    width: 30%;
+    background-color: purple;
+}
+
+/* Style de mon menu principal */
+
+#nav ul{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#nav ul li{
+    padding-right: 30px;
+}
